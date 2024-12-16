@@ -21,8 +21,8 @@ export default function Clean() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-20">
-      <h1 className="text-3xl font-bold mb-10">Limpeza de Email</h1>
+    <div className="container mx-auto px-4 py-20 text-white ">
+      <h1 className="text-3xl font-bold mb-10 ">Limpeza de Email</h1>
       <div className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Conectar Conta de Email</h2>
         <Button>Conectar Gmail</Button>

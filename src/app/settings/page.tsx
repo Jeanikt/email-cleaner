@@ -9,9 +9,9 @@ export default function Settings() {
   const [emailNotifications, setEmailNotifications] = useState(true)
 
   return (
-    <div className="container mx-auto px-4 py-20">
-      <h1 className="text-3xl font-bold mb-10">Configurações</h1>
-      <div className="space-y-8">
+    <div className="container mx-auto px-4 py-20 ">
+      <h1 className="text-3xl font-bold mb-10 text-white ">Configurações</h1>
+      <div className="space-y-8 text-white ">
         <div>
           <h2 className="text-2xl font-semibold mb-4">Dados Pessoais</h2>
           <form className="space-y-4">
@@ -23,7 +23,7 @@ export default function Settings() {
         </div>
         <div>
           <h2 className="text-2xl font-semibold mb-4">Preferências de Limpeza</h2>
-          <form className="space-y-4">
+          <form className="space-y-4 text-black">
             <div className="flex items-center justify-between">
               <label htmlFor="frequency">Frequência de Limpeza</label>
               <select id="frequency" className="border rounded p-2">
@@ -39,7 +39,7 @@ export default function Settings() {
           <h2 className="text-2xl font-semibold mb-4">Notificações</h2>
           <div className="flex items-center justify-between">
             <label htmlFor="email-notifications">Notificações por Email</label>
-            <Switch
+            <Switch 
               id="email-notifications"
               checked={emailNotifications}
               onCheckedChange={setEmailNotifications}
