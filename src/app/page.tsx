@@ -14,23 +14,23 @@ export default function Home() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto text-center"
         >
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="text-white text-5xl md:text-6xl font-bold mb-6">
             Transforme sua caixa de entrada em um espaço produtivo
           </h1>
-          <p className="text-xl mb-8 text-muted-foreground">
+          <p className=" text-xl mb-8 text-muted-foreground">
             Organize, limpe e mantenha sua caixa de entrada sob controle com nossa solução inteligente.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/signup"
-              className="group px-6 py-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-colors inline-flex items-center"
+              className=" group px-6 py-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-colors inline-flex items-center"
             >
               Comece Agora
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
             </Link>
             <Link
               href="/pricing"
-              className="px-6 py-3 rounded-full border border-primary hover:bg-primary/10 transition-colors"
+              className="text-white px-6 py-3 rounded-full border border-primary hover:bg-primary/10 transition-colors"
             >
               Ver Planos
             </Link>
@@ -40,7 +40,7 @@ export default function Home() {
 
       {/* Features Grid */}
       <section className="py-20 border-t border-border">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="text-white grid md:grid-cols-3 gap-8">
           {[
             {
               title: "Limpeza Inteligente",
@@ -71,8 +71,8 @@ export default function Home() {
 
       {/* Timeline Section */}
       <section className="py-20 border-t border-border">
-        <h2 className="text-3xl font-bold mb-12 text-center">Como Funciona</h2>
-        <div className="max-w-3xl mx-auto">
+        <h2 className="text-white text-3xl font-bold mb-12 text-center">Como Funciona</h2>
+        <div className="text-white max-w-3xl mx-auto">
           {[
             { year: '01', title: 'Conecte sua conta', description: 'Integre sua conta de email em segundos' },
             { year: '02', title: 'Personalize', description: 'Defina suas preferências de limpeza' },
