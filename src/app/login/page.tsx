@@ -18,7 +18,7 @@ export default function Login() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-20">
+    <div className="text-gray-300 container mx-auto px-4 py-20">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

@@ -18,20 +18,20 @@ export default function SignUp() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-20">
+    <div className="container mx-auto px-4 py-20 ">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         className="max-w-md mx-auto"
       >
-        <h1 className="text-4xl font-bold mb-8 text-center">Crie sua conta</h1>
+        <h1 className="text-gray-300 text-4xl font-bold mb-8 text-center">Crie sua conta</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <Input
               type="text"
               placeholder="Nome completo"
-              className="w-full px-4 py-3 rounded-full bg-secondary"
+              className="text-white w-full px-4 py-3 rounded-full bg-secondary"
               required
             />
           </div>
@@ -39,7 +39,7 @@ export default function SignUp() {
             <Input
               type="email"
               placeholder="Email"
-              className="w-full px-4 py-3 rounded-full bg-secondary"
+              className="text-white w-full px-4 py-3 rounded-full bg-secondary"
               required
             />
           </div>
@@ -47,7 +47,7 @@ export default function SignUp() {
             <Input
               type="password"
               placeholder="Senha"
-              className="w-full px-4 py-3 rounded-full bg-secondary"
+              className="text-white w-full px-4 py-3 rounded-full bg-secondary"
               required
             />
           </div>
