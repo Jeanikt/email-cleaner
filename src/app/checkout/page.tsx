@@ -13,7 +13,7 @@ export default function Checkout() {
   const [paymentMethod, setPaymentMethod] = useState('credit-card')
 
   return (
-    <div className="container mx-auto px-4 py-20">
+    <div className="text-gray-300 container mx-auto px-4 py-20">
       <h1 className="text-3xl font-bold mb-10">Finalizar Compra</h1>
       <div className="grid md:grid-cols-2 gap-8">
         <div>
